@@ -1,0 +1,41 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+  padding: 0;
+  background-color: rgb(92, 92, 92);
+  color: white;
+  font-family: "Montserrat";
+}
+.main {
+  width: 90%;
+  margin: auto;
+  margin-top: 32px;
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+
+.title {
+  text-align: center;
+}
+.intro {
+  font-size: 2rem;
+}
+.list {
+  margin-left: 20px;
+}
+.order {
+  display: flex;
+  gap: 35px;
+  list-style-type: upper-roman;
+}
+.marques {
+  display: flex;
+  width: 100%;
+  gap: 10px;
+  justify-content: space-between;
+  height: 300px;
+}
+.text{
+  letter-spacing: 1px;
+}
